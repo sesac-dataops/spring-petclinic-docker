@@ -2,7 +2,7 @@
 services:
   petclinic:
     build:
-      context: .
+      context: ..
       dockerfile: Dockerfile.multi
       target: development
     ports:
